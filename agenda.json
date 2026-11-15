@@ -1,0 +1,906 @@
+{
+  "versao": 1,
+  "eventos": [
+    {
+      "id": "natal",
+      "nome": "Natal",
+      "implementado": true,
+      "ativo": true,
+      "fase": "especial_natal",
+      "inicio": "12-01",
+      "fim": "01-06",
+      "observacao": "Até o Dia de Reis."
+    },
+    {
+      "id": "halloween",
+      "nome": "Halloween",
+      "implementado": true,
+      "ativo": true,
+      "fase": "especial_halloween",
+      "inicio": "10-24",
+      "fim": "11-02",
+      "observacao": ""
+    },
+    {
+      "id": "saci",
+      "nome": "Dia do Saci",
+      "implementado": true,
+      "ativo": true,
+      "fase": "especial_saci",
+      "inicio": "10-24",
+      "fim": "11-02",
+      "observacao": "31/10, junto com o Halloween."
+    },
+    {
+      "id": "ano_novo",
+      "nome": "Ano Novo",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "12-30",
+      "fim": "01-03",
+      "observacao": ""
+    },
+    {
+      "id": "carnaval_2027",
+      "nome": "Carnaval 2027",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "2027-02-05",
+      "fim": "2027-02-10",
+      "observacao": "Data móvel: atualizar a cada ano (terça de Carnaval = Páscoa - 47 dias)."
+    },
+    {
+      "id": "dia_da_mulher",
+      "nome": "Dia Internacional da Mulher",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "03-08",
+      "fim": "03-10",
+      "observacao": ""
+    },
+    {
+      "id": "pascoa_2027",
+      "nome": "Páscoa 2027",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "2027-03-25",
+      "fim": "2027-03-29",
+      "observacao": "Data móvel: atualizar a cada ano."
+    },
+    {
+      "id": "sao_joao",
+      "nome": "São João (Festa Junina)",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "06-01",
+      "fim": "06-30",
+      "observacao": ""
+    },
+    {
+      "id": "verao",
+      "nome": "Verão",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "12-21",
+      "fim": "03-19",
+      "observacao": "Hemisfério sul."
+    },
+    {
+      "id": "outono",
+      "nome": "Outono",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "03-20",
+      "fim": "06-20",
+      "observacao": "Hemisfério sul."
+    },
+    {
+      "id": "inverno",
+      "nome": "Inverno",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "06-21",
+      "fim": "09-21",
+      "observacao": "Hemisfério sul."
+    },
+    {
+      "id": "primavera",
+      "nome": "Primavera",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "09-22",
+      "fim": "12-20",
+      "observacao": "Hemisfério sul."
+    },
+    {
+      "id": "aniversario_do_jogo",
+      "nome": "Aniversário do jogo",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Preencher com a data de lançamento."
+    },
+    {
+      "id": "ferias_de_julho",
+      "nome": "Férias de julho",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "07-01",
+      "fim": "07-31",
+      "observacao": ""
+    },
+    {
+      "id": "ferias_de_verao",
+      "nome": "Férias de verão",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "12-20",
+      "fim": "02-01",
+      "observacao": ""
+    },
+    {
+      "id": "inicio_temporada_corridas",
+      "nome": "Início da temporada de corridas",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Preencher com a data da primeira corrida do ano."
+    },
+    {
+      "id": "namorados",
+      "nome": "Dia dos Namorados",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "06-10",
+      "fim": "06-12",
+      "observacao": "Brasil: 12/06."
+    },
+    {
+      "id": "criancas",
+      "nome": "Dia das Crianças",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "10-08",
+      "fim": "10-12",
+      "observacao": "Brasil: 12/10."
+    },
+    {
+      "id": "maes_2027",
+      "nome": "Dia das Mães 2027",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "2027-05-03",
+      "fim": "2027-05-09",
+      "observacao": "Brasil: 2º domingo de maio. Data móvel."
+    },
+    {
+      "id": "pais_2027",
+      "nome": "Dia dos Pais 2027",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "2027-08-02",
+      "fim": "2027-08-08",
+      "observacao": "Brasil: 2º domingo de agosto. Data móvel."
+    },
+    {
+      "id": "familia",
+      "nome": "Dia Internacional da Família",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "05-15",
+      "fim": "05-15",
+      "observacao": ""
+    },
+    {
+      "id": "avos",
+      "nome": "Dia dos Avós",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "07-26",
+      "fim": "07-26",
+      "observacao": ""
+    },
+    {
+      "id": "trabalho",
+      "nome": "Dia do Trabalho",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "05-01",
+      "fim": "05-01",
+      "observacao": ""
+    },
+    {
+      "id": "finados",
+      "nome": "Finados",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "11-02",
+      "fim": "11-02",
+      "observacao": ""
+    },
+    {
+      "id": "consciencia_negra",
+      "nome": "Dia da Consciência Negra",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "11-20",
+      "fim": "11-20",
+      "observacao": ""
+    },
+    {
+      "id": "juventude",
+      "nome": "Dia Internacional da Juventude",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "08-12",
+      "fim": "08-12",
+      "observacao": ""
+    },
+    {
+      "id": "copa_feminina_2027",
+      "nome": "Copa do Mundo Feminina 2027",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "2027-06-24",
+      "fim": "2027-07-25",
+      "observacao": "No Brasil. Conferir datas oficiais."
+    },
+    {
+      "id": "copa_masculina_2030",
+      "nome": "Copa do Mundo Masculina 2030",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Preencher quando houver datas oficiais."
+    },
+    {
+      "id": "olimpiadas_2028",
+      "nome": "Olimpíadas 2028",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "2028-07-14",
+      "fim": "2028-07-30",
+      "observacao": "Los Angeles. Conferir datas oficiais."
+    },
+    {
+      "id": "paralimpiadas_2028",
+      "nome": "Paralimpíadas 2028",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "2028-08-15",
+      "fim": "2028-08-27",
+      "observacao": "Los Angeles. Conferir datas oficiais."
+    },
+    {
+      "id": "pan_2027",
+      "nome": "Jogos Pan-Americanos 2027",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Preencher com as datas oficiais."
+    },
+    {
+      "id": "campeonato_mundial",
+      "nome": "Campeonato mundial (corridas)",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Final de temporada ou corrida especial."
+    },
+    {
+      "id": "evento_generico_1",
+      "nome": "Evento generico 1",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_generico_2",
+      "nome": "Evento generico 2",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_generico_3",
+      "nome": "Evento generico 3",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_generico_4",
+      "nome": "Evento generico 4",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_generico_5",
+      "nome": "Evento generico 5",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_generico_6",
+      "nome": "Evento generico 6",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_generico_7",
+      "nome": "Evento generico 7",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_generico_8",
+      "nome": "Evento generico 8",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_generico_9",
+      "nome": "Evento generico 9",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_generico_10",
+      "nome": "Evento generico 10",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_saude_1",
+      "nome": "Evento saude 1",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_saude_2",
+      "nome": "Evento saude 2",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_saude_3",
+      "nome": "Evento saude 3",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_saude_4",
+      "nome": "Evento saude 4",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_saude_5",
+      "nome": "Evento saude 5",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_saude_6",
+      "nome": "Evento saude 6",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_saude_7",
+      "nome": "Evento saude 7",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_saude_8",
+      "nome": "Evento saude 8",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_saude_9",
+      "nome": "Evento saude 9",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_saude_10",
+      "nome": "Evento saude 10",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_internacional_1",
+      "nome": "Evento internacional 1",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_internacional_2",
+      "nome": "Evento internacional 2",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_internacional_3",
+      "nome": "Evento internacional 3",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_internacional_4",
+      "nome": "Evento internacional 4",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_internacional_5",
+      "nome": "Evento internacional 5",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_internacional_6",
+      "nome": "Evento internacional 6",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_internacional_7",
+      "nome": "Evento internacional 7",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_internacional_8",
+      "nome": "Evento internacional 8",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_internacional_9",
+      "nome": "Evento internacional 9",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_internacional_10",
+      "nome": "Evento internacional 10",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_patrocinio_1",
+      "nome": "Evento patrocinio 1",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_patrocinio_2",
+      "nome": "Evento patrocinio 2",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_patrocinio_3",
+      "nome": "Evento patrocinio 3",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_patrocinio_4",
+      "nome": "Evento patrocinio 4",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_patrocinio_5",
+      "nome": "Evento patrocinio 5",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_patrocinio_6",
+      "nome": "Evento patrocinio 6",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_patrocinio_7",
+      "nome": "Evento patrocinio 7",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_patrocinio_8",
+      "nome": "Evento patrocinio 8",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_patrocinio_9",
+      "nome": "Evento patrocinio 9",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_patrocinio_10",
+      "nome": "Evento patrocinio 10",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_comunidade_1",
+      "nome": "Evento comunidade 1",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_comunidade_2",
+      "nome": "Evento comunidade 2",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_comunidade_3",
+      "nome": "Evento comunidade 3",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_comunidade_4",
+      "nome": "Evento comunidade 4",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_comunidade_5",
+      "nome": "Evento comunidade 5",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_comunidade_6",
+      "nome": "Evento comunidade 6",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_comunidade_7",
+      "nome": "Evento comunidade 7",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_comunidade_8",
+      "nome": "Evento comunidade 8",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_comunidade_9",
+      "nome": "Evento comunidade 9",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    },
+    {
+      "id": "evento_comunidade_10",
+      "nome": "Evento comunidade 10",
+      "implementado": false,
+      "ativo": false,
+      "fase": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": "Reservado."
+    }
+  ],
+  "patrocinios": [
+    {
+      "marca": "Saideken",
+      "ativo": false,
+      "banner": "",
+      "banner_en": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": ""
+    },
+    {
+      "marca": "Toddex",
+      "ativo": false,
+      "banner": "",
+      "banner_en": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": ""
+    },
+    {
+      "marca": "OleoFortes",
+      "ativo": false,
+      "banner": "",
+      "banner_en": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": ""
+    },
+    {
+      "marca": "RedBoi",
+      "ativo": false,
+      "banner": "",
+      "banner_en": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": ""
+    },
+    {
+      "marca": "TurboCola",
+      "ativo": false,
+      "banner": "",
+      "banner_en": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": ""
+    },
+    {
+      "marca": "Pneuzao",
+      "ativo": false,
+      "banner": "",
+      "banner_en": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": ""
+    },
+    {
+      "marca": "BancoImprevisto",
+      "ativo": false,
+      "banner": "",
+      "banner_en": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": ""
+    },
+    {
+      "marca": "PitStopChaos",
+      "ativo": false,
+      "banner": "",
+      "banner_en": "",
+      "inicio": "",
+      "fim": "",
+      "observacao": ""
+    }
+  ],
+  "parede": {
+    "ativo": false,
+    "imagem": "",
+    "imagem_en": "",
+    "inicio": "",
+    "fim": ""
+  }
+}
