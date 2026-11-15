@@ -8,18 +8,16 @@ O jogo baixa o arquivo `agenda.json` toda vez que abre, com no máximo 4 segundo
 
 ## Onde o arquivo mora
 
-O jogo só consegue baixar o arquivo de um endereço **público**. O repositório principal do jogo é privado, então a agenda fica num destes lugares:
+O jogo só consegue baixar o arquivo de um endereço **público**. O repositório principal do jogo é privado, então a agenda mora num repositório público separado:
 
-- **Repositório público só para a agenda** (recomendado), por exemplo `toddbrasil/PitStopChaos-AoVivo`, com este `agenda.json` e este manual na raiz.
-- **Gist público**.
+- **Repositório:** https://github.com/toddbrasil/PitStopChaos-AoVivo
+- **Endereço que o jogo lê:** https://raw.githubusercontent.com/toddbrasil/PitStopChaos-AoVivo/main/agenda.json
 
-O endereço que vai no jogo é o do arquivo **cru** (raw):
+**Como mudar a agenda:** abra o `agenda.json` no GitHub, clique no lápis (Edit), altere e salve com "Commit changes".
 
-```
-https://raw.githubusercontent.com/<usuario>/<repositorio>/main/agenda.json
-```
+**Fonte da verdade:** a cópia em `AoVivo/` no projeto é o que o jogo traz embutido. Quando mudar a agenda publicada, copie a mudança para lá também, para a próxima build já sair com ela.
 
-Esse endereço vai no catálogo do jogo, campo **Endereco Do Calendario** (`Assets/_Projeto/Dados/Catalogo_Jogo.asset`), e entra no jogo na próxima build. Depois disso, mudar a agenda é só editar o JSON no GitHub e salvar (commit).
+**Onde o endereço está configurado:** no gerador (`GeradorFases.cs`), que o grava no catálogo (`Catalogo_Jogo.asset`).
 
 > O GitHub pode levar uns 5 minutos para servir o arquivo novo pelo endereço raw.
 
